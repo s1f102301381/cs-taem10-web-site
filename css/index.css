@@ -2,6 +2,12 @@ body {
     font-family: fantasy;
 }
 
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #caae52;
+}
+
 #container {
     display: flex;
 }
