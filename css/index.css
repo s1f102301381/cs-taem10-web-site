@@ -2,6 +2,10 @@ body {
     font-family: fantasy;
 }
 
+#container {
+    display: flex;
+}
+
 #top {
     position: fixed;
     right: 20px;
@@ -10,4 +14,12 @@ body {
     font-size: 10px;
     background-color: rgb(151, 56, 93);
     color: white;
+}
+
+#menubar {
+    width: 25%;
+}
+
+#content {
+    width: 75%;
 }
