@@ -1,10 +1,27 @@
-img{
-    width: 30%;
-    position:fixed;
+body{
+    background-color: #f3daec;
+    opacity: 1;
+    background: linear-gradient(135deg, #fdffbf55 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #fdffbf 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #fdffbf55 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #fdffbf 25%, #f3daec 25%) 0px 0/ 80px 80px;
+    margin: 0px;
+    font-family: sans-serif;
 }
 
 h1{
     text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ff8a8a8b;
+}
+
+#top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 10px;
+    background-color: rgb(151, 56, 93);
+    color: white;
+    text-decoration: none;
 }
 
 #menubar{
@@ -13,22 +30,92 @@ h1{
     padding: 5px 0px 10px 0px;
     position: fixed;
     border-left: solid 5px #df4534;
+}
+
+#menubar a{
     text-decoration: none;
+    color: #000000;
 }
 
 #content{
-    padding-left: 18%;
+    padding-left: 16%;
 }
 
-.hair{
-    padding-left: 2%;
+#intro{
+    background-color: rgba(255, 206, 81, 0.582);
+    padding: 8px;
+    margin: 8px;
+}
+
+.int{
+    margin: 5px;
+}
+
+.bui{
+    padding-left: 1%;
+    margin: 10px 10px 10px 28%;
+}
+
+h2.bui{
+    border-bottom: solid 5px #d9aa34;
 }
 
 #hair{
-    margin: 10px 10px 10px 38%;
-    background-color: #eeeeee;
+    padding: 10px;
+    background-color: #ffffff74;
 }
 
-#hair h2{
-    border-bottom: solid 5px #d9aa34;
+img#img1{
+    width: 330px;
+    position:absolute;
+}
+
+#eye{
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #ffffff74;
+}
+
+img#img2{
+    width: 310px;
+    position:absolute;
+}
+
+#nose{
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #ffffff74;
+}
+
+img#img3{
+    width: 315px;
+    position:absolute;
+}
+
+#mouth{
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #ffffff74;
+}
+
+img#img4{
+    width: 275px;
+    position:absolute;
+}
+
+#ear{
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #ffffff74;
+    margin-bottom: 10px;
+}
+
+img#img5{
+    width: 275px;
+    position:absolute;
+}
+
+#bottom{
+    background-color: #444444;
+    padding-bottom: 50px;
 }
