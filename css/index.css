@@ -50,13 +50,14 @@ nav{
     left: 0;
     transition: all 0.5s;
     z-index: 2;
-    width: 260px;
-    border-left: solid 12px #464646;
+    width: 250px;
+    border-left: double 10px #f55c5c;;
+    border-right: double 10px #f55c5c;
     height: 100%;
 }
 
 #list{
-    padding: 25px;
+    padding: 0px 25px 0px 25px;
 }
 
 #list ul{
@@ -65,27 +66,29 @@ nav{
     padding: 0;
 }
 
-#list li{
-    border-bottom: solid 3px #222222;
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 #list a{
     display: block;
-    text-decoration: none;
-    color: #000;
-    padding: 15px;
+    padding: 13px;
     text-align: center;
     transition-duration: 0.3s;
+    border-bottom: solid 3px #222222;
 }
 
-#list p{
+#list li p{
     text-align: center;
     padding-top: 10px;
+    margin: 5px 0px 5px 0px;
 }
 
 #list ul li a:hover{
     background-color: rgb(168, 151, 151);
 }
+
 .content {
     padding-left: 285px;
 }
@@ -109,6 +112,7 @@ nav{
     margin-top: 2px;
     border: double 4px #e9a347;
     background-color: #e9a3474a;
+    font-size: 16px;
 }
 
 .human{
@@ -140,17 +144,72 @@ ul{
     padding-left: 20px;
 }
 
+#ele1{
+    overflow: auto;
+}
+#atama{
+    float: left;
+    width: 47%;
+    height: 550px;
+}
+#karada{
+    float: right;
+    width: 47%;
+    height: 550px;
+}
+
+#ele2{
+    overflow: auto;
+}
+#kahanshin{
+    float: left;
+    width: 47%;
+    height: 550px;
+}
+#other{
+    float: right;
+    width: 47%;
+    height: 550px;
+}
+
 .komidashi {
     border-left: solid 3px #ffd000;
     padding: 1px;
     background-color: #ebf894;
     margin-top: 0px;
+    font-size: 22px;
 }
 
 .waku {
     border: double 5px #ffffff81;
     margin-bottom: 30px;
     background-color: #ffffff2c;
+    font-size: 18px;
+}
+
+.image{
+    width: 330px;
+    margin-left: 135px;
+}
+
+.buintro{
+    text-align: center;
+}
+
+.kotira{
+    color: blue;
+    text-decoration: underline;
+}
+
+#syutten{
+    border: double 5px #ffffff81;
+    margin-bottom: 30px;
+    background-color: #ffffff2c;
+    padding: 8px;
+}
+
+#syutten h3{
+    border-bottom: solid 2px #444444;
 }
 
 #bottom{
