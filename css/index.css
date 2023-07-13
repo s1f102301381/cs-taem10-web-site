@@ -102,7 +102,6 @@ a {
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     border: double 10px #ffffff;
     margin: 2px 2px 2px 280px;
-    width: 87%;
   }
   
 
@@ -149,12 +148,12 @@ ul{
 }
 #atama{
     float: left;
-    width: 47%;
+    width: 580px;
     height: 550px;
 }
 #karada{
     float: right;
-    width: 47%;
+    width: 580px;
     height: 550px;
 }
 
@@ -163,12 +162,12 @@ ul{
 }
 #kahanshin{
     float: left;
-    width: 47%;
+    width: 580px;
     height: 550px;
 }
 #other{
     float: right;
-    width: 47%;
+    width: 580px;
     height: 550px;
 }
 
