@@ -60,7 +60,7 @@ h2.bui{
     border-bottom: solid 5px #d9aa34;
 }
 
-#hair{
+#leg{
     padding: 10px;
     background-color: #ffffff74;
 }
@@ -70,7 +70,7 @@ img#img1{
     position:absolute;
 }
 
-#eye{
+#thigh{
     margin-top: 35px;
     padding: 10px;
     background-color: #ffffff74;
@@ -81,7 +81,7 @@ img#img2{
     position:absolute;
 }
 
-#nose{
+#calf{
     margin-top: 35px;
     padding: 10px;
     background-color: #ffffff74;
@@ -92,34 +92,11 @@ img#img3{
     position:absolute;
 }
 
-#mouth{
-    margin-top: 35px;
-    padding: 10px;
-    background-color: #ffffff74;
-}
-
-img#img4{
-    width: 275px;
-    position:absolute;
-}
-
-#ear{
-    margin-top: 35px;
-    padding: 10px;
-    background-color: #ffffff74;
-    margin-bottom: 10px;
-}
-
-img#img5{
-    width: 275px;
-    position:absolute;
-}
-
 #bottom{
     background-color: #444444;
     padding-bottom: 50px;
 }
 
-#a{
-    text-align: right;
+p.bui{
+    font-size: large;
 }
