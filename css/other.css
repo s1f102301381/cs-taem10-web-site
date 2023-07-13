@@ -74,19 +74,6 @@ a {
     background-color: rgb(119, 19, 71);
 }
 
-#menubar{
-    width: 15%;
-    background-color: #dddddd;
-    padding: 5px 0px 10px 0px;
-    position: fixed;
-    border-left: solid 5px #df4534;
-}
-
-#menubar a{
-    text-decoration: none;
-    color: #000000;
-}
-
 #content{
     padding-left: 285px;
 }
