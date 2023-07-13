@@ -2,18 +2,20 @@ body{
     background-color: #f3daec;
     opacity: 1;
     background: linear-gradient(135deg, #fdffbf55 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #fdffbf 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #fdffbf55 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #fdffbf 25%, #f3daec 25%) 0px 0/ 80px 80px;
-    margin: 0px;
+    margin: 0px 5px 0px 0px;
     font-family: sans-serif;
 }
 
-h1{
+h1 {
     text-align: center;
-    margin: 5px;
+    border: solid 3px #ff3232d4;/*線色*/
     padding: 10px;
+    margin: 5px 5px 5px 280px;
+    border-radius: 0.5em;
     background-color: #ff8a8a8b;
-}
+  }
 
-#top{
+  #top{
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -24,27 +26,62 @@ h1{
     text-decoration: none;
 }
 
-#menubar{
-    width: 15%;
-    background-color: #dddddd;
-    padding: 5px 0px 10px 0px;
+nav{
+    display: block;
     position: fixed;
-    border-left: solid 5px #df4534;
+    background-color: rgb(159, 38, 79);
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    z-index: 2;
+    width: 265px;
+    height: 100%;
 }
 
-#menubar a{
+#list{
+    padding: 0px 25px 0px 25px;
+    color: #f3daec;
+}
+
+#list ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+a {
     text-decoration: none;
-    color: #000000;
+    color: #000;
+}
+
+#list a{
+    display: block;
+    padding: 13px;
+    text-align: center;
+    transition-duration: 0.3s;
+    border-bottom: solid 3px #b3be37;
+    color: #f3daec;
+}
+
+#list li p{
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+#list ul li a:hover{
+    background-color: rgb(119, 19, 71);
 }
 
 #content{
-    padding-left: 16%;
+    padding-left: 285px;
 }
 
 #intro{
     background-color: rgba(255, 206, 81, 0.582);
     padding: 8px;
     margin: 8px;
+    border-radius: 0.5em;
 }
 
 .int{
@@ -53,75 +90,65 @@ h1{
 
 .bui{
     padding-left: 1%;
-    margin: 5px 5px 5px 28%;
+    margin: 10px 10px 10px 370px;
 }
 
 h2.bui{
     border-bottom: solid 5px #d9aa34;
 }
 
-#hair{
+p.bui{
+    font-size: 20px;
+}
+
+#yubi{
     padding: 10px;
     background-color: #ffffff74;
 }
 
 img#img1{
-    width: 350px;
+    width: 330px;
     position:absolute;
-    left: 235px;
-    top: 120px;
+    margin-top: 50px;
 }
 
-#eye{
+#ude{
     margin-top: 35px;
-    padding: 10px;
+    padding: 10px 10px 40px 10px;
     background-color: #ffffff74;
 }
 
 img#img2{
-    width: 22%; 
-    height: 27%; 
+    width: 260px;
     position:absolute;
-    left:250px;
-    top:370px;
-   
+    margin-left: 35px;
 }
 
-#nose{
+#senaka{
     margin-top: 35px;
-    padding: 10px;
+    padding: 10px 10px 25px 10px;
     background-color: #ffffff74;
 }
 
 img#img3{
-    width: 22%; 
-    height: 20%; 
+    width: 300px;
     position:absolute;
-    left:250px;
-    top:615px;
 }
 
-#mouth{
+#sakotu{
     margin-top: 35px;
-    padding: 10px;
+    padding: 10px 10px 35px 10px;
     background-color: #ffffff74;
 }
 
-#mout{
-    margin-top: 35px;
-    padding: 10px;
-    background-color: #ffffff74;
-}
 
 img#img4{
-    width: 22%; 
-    height: 20%; 
+    width: 275px;
     position:absolute;
-    left:250px;
-    top:815px;
+    margin-left: 20px;
 }
 
-#ear{
+#waki{
     margin-top: 35px;
     padding: 10px;
     background-color: #ffffff74;
@@ -129,14 +156,13 @@ img#img4{
 }
 
 img#img5{
-    width: 22%; 
-    height: 25%; 
+    width: 275px;
     position:absolute;
-    left:250px;
-    top:1010px;
+    margin: 20px 0px 0px 20px;
 }
 
 #bottom{
     background-color: #444444;
     padding-bottom: 50px;
+    margin-top: 50px;
 }
